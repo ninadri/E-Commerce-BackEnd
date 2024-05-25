@@ -73,11 +73,11 @@ We also want to make sure our password is updated correctly in our .env file.
 
 ## Usage
 
-The following images shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
+The walkthrough video provides a comprehensive overview of the application's GET routes, showcasing the retrieval of all categories, products, and tags, as tested in Insomnia. Additionally, it demonstrates the retrieval of individual categories, products, and tags. Furthermore, it delves into the application's POST, PUT, and DELETE routes, offering a thorough exploration of its functionality.
 
-The following images shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
+[Walkthrough Video](/Assets/ECommerce-Walkthrough.mp4)
 
-The following images shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
+I've also attached the link to the video (https://drive.google.com/file/d/1CA4jnl-evUoksmz0qwN4fPWFK3b37xS7/view?usp=drive_link)
 
 ## Credits
 
