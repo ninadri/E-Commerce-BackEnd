@@ -1,12 +1,4 @@
-# 13 Object-Relational Mapping (ORM): E-Commerce Back End
-
-## Your Task
-
-Internet retail, also known as **e-commerce**, plays a significant role within the electronics industry, as it empowers businesses and consumers alike to conveniently engage in online buying and selling of electronic products. In the latest available data from 2021, the industry in the United States alone was estimated to have generated the substantial amount of US$2.54 trillion, according to the United Nations Conference on Trade and Development. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.
-
-Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a PostgreSQL database.
-
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
+# E-Commerce Back End
 
 ## User Story
 
@@ -31,5 +23,70 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+To use schema, open a terminal inside of the folder with the schema.sql file is and enter the following commands:
+
+Log into postgres with:
+
+```bash
+psql -U postgres
+```
+
+Import the schema:
+
+```bash
+\i schema.sql
+```
+
+Exit postgres:
+
+```bash
+\q
+```
+
+Change directory in the terminal to where your server.js file is located. The user must install the pg and Sequelize packages and start the server using the ƒollowing commands:
+
+```bash
+npm i
+```
+
+Then we need to seed the database and start the server:
+
+```bash
+node seeds/seed.js
+```
+
+```bash
+ npm run start
+```
+
+We also want to make sure our password is updated correctly in our .env file.
+
+## Usage
+
+The following images shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
+
+The following images shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
+
+The following images shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
+
+## Credits
+
+I had some help from Alexis with tutoring regarding this module.
+
+## License
+
+MIT License
+
+---
 
 © Adriana Nino. [Github Repo](https://github.com/ninadri/E-Commerce-BackEnd).
