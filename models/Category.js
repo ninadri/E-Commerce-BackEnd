@@ -1,11 +1,12 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection.js");
 
+// Declares a new class Category that extends the Sequelize Model class
 class Category extends Model {}
 
 Category.init(
   {
-    // define columns
+    // defines the model's attributes - columns
     category_name: {
       type: DataTypes.STRING,
       allowNull: false,

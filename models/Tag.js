@@ -1,12 +1,11 @@
 const { Model, DataTypes } = require("sequelize");
-
 const sequelize = require("../config/connection.js");
 
+// Declares a new class Tag that extends the Sequelize Model class
 class Tag extends Model {}
 
 Tag.init(
   {
-    // define columns
     tag_name: {
       type: DataTypes.STRING,
     },
