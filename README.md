@@ -31,12 +31,6 @@ THEN I am able to successfully create, update, and delete data in my database
 - [Credits](#credits)
 - [License](#license)
 
-## Usage
-
-The walkthrough video provides a comprehensive overview of the application's GET routes, demonstrating the retrieval of all categories, products, and tags, as tested in Insomnia. It also showcases the retrieval of individual categories, products, and tags. Furthermore, the video delves into the application's POST, PUT, and DELETE routes, offering a thorough exploration of its functionality.
-
-[![Walkthrough Video](/Assets/walkthrough.png)](https://drive.google.com/file/d/1CA4jnl-evUoksmz0qwN4fPWFK3b37xS7/view?usp=drive_link)
-
 ## Installation
 
 To use schema, open a terminal inside of the folder with the schema.sql file is and enter the following commands:
@@ -76,6 +70,12 @@ node seeds/seed.js
 ```
 
 We also want to make sure our password is updated correctly in our .env file.
+
+## Usage
+
+The walkthrough video provides a comprehensive overview of the application's GET routes, demonstrating the retrieval of all categories, products, and tags, as tested in Insomnia. It also showcases the retrieval of individual categories, products, and tags. Furthermore, the video delves into the application's POST, PUT, and DELETE routes, offering a thorough exploration of its functionality.
+
+[![Walkthrough Video](/Assets/walkthrough.png)](https://drive.google.com/file/d/1CA4jnl-evUoksmz0qwN4fPWFK3b37xS7/view?usp=drive_link)
 
 ## License
 
