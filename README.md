@@ -71,6 +71,8 @@ node seeds/seed.js
 
 We also want to make sure our password is updated correctly in our .env file.
 
+Then we open our Insomnia app to test routes.
+
 ## Usage
 
 The walkthrough video provides a comprehensive overview of the application's GET routes, demonstrating the retrieval of all categories, products, and tags, as tested in Insomnia. It also showcases the retrieval of individual categories, products, and tags. Furthermore, the video delves into the application's POST, PUT, and DELETE routes, offering a thorough exploration of its functionality.
